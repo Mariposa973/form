@@ -1,0 +1,38 @@
+.form-custom{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.form-input {
+      display: flex;
+      width: 50%;
+      margin-bottom: 10px;
+      padding: 2px;
+      border: 1px solid rgb(182, 176, 176);
+}  
+  
+label {
+    margin: 5px 10px 5px;
+    flex: 1;
+}
+  
+.textarea-custom-input {
+    display: flex;
+    padding : 2px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(182, 176, 176);
+    width   : 50%;
+    resize  : none;
+    overflow: auto;
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: rgb(47, 47, 53);
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 8px 25px;
+    cursor: pointer;
+}
